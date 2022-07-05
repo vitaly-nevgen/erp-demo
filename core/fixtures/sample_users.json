@@ -1,0 +1,163 @@
+[
+{
+    "model": "core.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$kyfeY34Jjxqytm8m4fbC80$A/KEdtlHvdB9NfHLe0lGihufsv+1YEi9BcM8WYB1vsg=",
+        "last_login": "2022-07-05T15:43:29.160Z",
+        "is_superuser": true,
+        "username": "vitaly",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-07-05T15:36:54.153Z",
+        "phone": null,
+        "position": null,
+        "supervisor": null,
+        "groups": [
+            1
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "core.user",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$h9M3PIKGhQg9DtZ2v7dC1U$4RPTyAMj9orkcBs1rAAAivbU7QWeNWxSED428VqNORU=",
+        "last_login": "2022-07-05T15:52:10.294Z",
+        "is_superuser": false,
+        "username": "hr_user",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-07-05T15:45:36Z",
+        "phone": null,
+        "position": null,
+        "supervisor": null,
+        "groups": [
+            2
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "core.user",
+    "pk": 4,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$h9M3PIKGhQg9DtZ2v7dC1U$4RPTyAMj9orkcBs1rAAAivbU7QWeNWxSED428VqNORU",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user_1",
+        "first_name": "User",
+        "last_name": "1",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-07-05T15:49:07.206Z",
+        "phone": "",
+        "position": "",
+        "supervisor": null,
+        "groups": [
+            1
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "core.user",
+    "pk": 5,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$h9M3PIKGhQg9DtZ2v7dC1U$4RPTyAMj9orkcBs1rAAAivbU7QWeNWxSED428VqNORU",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user_2",
+        "first_name": "User",
+        "last_name": "2",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-07-05T15:49:15.215Z",
+        "phone": "",
+        "position": "",
+        "supervisor": 4,
+        "groups": [
+            1
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "core.user",
+    "pk": 6,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$h9M3PIKGhQg9DtZ2v7dC1U$4RPTyAMj9orkcBs1rAAAivbU7QWeNWxSED428VqNORU",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user_3",
+        "first_name": "User",
+        "last_name": "3",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-07-05T15:49:21.123Z",
+        "phone": "",
+        "position": "",
+        "supervisor": 4,
+        "groups": [
+            1
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "core.user",
+    "pk": 7,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$h9M3PIKGhQg9DtZ2v7dC1U$4RPTyAMj9orkcBs1rAAAivbU7QWeNWxSED428VqNORU",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user_4",
+        "first_name": "User",
+        "last_name": "4",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-07-05T15:49:26.021Z",
+        "phone": "",
+        "position": "",
+        "supervisor": 6,
+        "groups": [
+            1
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "core.user",
+    "pk": 8,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$h9M3PIKGhQg9DtZ2v7dC1U$4RPTyAMj9orkcBs1rAAAivbU7QWeNWxSED428VqNORU",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user_5",
+        "first_name": "User",
+        "last_name": "5",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-07-05T15:50:50.432Z",
+        "phone": "",
+        "position": "",
+        "supervisor": 7,
+        "groups": [
+            1
+        ],
+        "user_permissions": []
+    }
+}
+]
