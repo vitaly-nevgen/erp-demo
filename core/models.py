@@ -18,7 +18,7 @@ class User(AbstractUser):
         if not self.pk:
             creating = True
             self._password = self.password
-        super().save(*args, **kwargs)
+        self.save = super().save(*args, **kwargs)
 
         if creating:
             employee_group = Group.objects.get(name=EMPLOYEE_GROUP_NAME)
@@ -29,9 +29,9 @@ class User(AbstractUser):
 
     class Meta:
         permissions = (
-            ("view_structure", _("Can view organization structure")),
-            ("view_own_subordinates", _("Can view own subordinates")),
-            ("view_own_supervisor", _("Can view own supervisor")),
-            ("change_user_subordinates", _("Can change user subordinates")),
-            ("change_user_supervisor", _("Can change user supervisor")),
+            ('view_structure', _('Can view organization structure')),
+            ('view_own_subordinates', _('Can view own subordinates')),
+            ('view_own_supervisor', _('Can view own supervisor')),
+            ('change_user_subordinates', _('Can change user subordinates')),
+            ('change_user_supervisor', _('Can change user supervisor')),
         )

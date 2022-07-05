@@ -3,6 +3,7 @@
 ```
 docker-compose up -d --build
 docker-compose exec web python manage.py migrate
+docker-compose exec web python manage.py loaddata core/fixtures/auth_groups.json 
 
 http://127.0.0.1:8000/
 ```
